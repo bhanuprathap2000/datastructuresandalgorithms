@@ -1,0 +1,16 @@
+during the function call an execution context or activation record is created and pushed into call stack and this 
+execution context will contain all the static variable declared inside that function and they will remain in the use until
+function is executed and gets destroyed when function is pushed out of the stack.
+
+By what if we want the memory to be allocated and to remain until we actually delete or we wan to increase the size 
+of the memory allocated during the runtime then we need to use the heap section of the memory and we can access that
+using the new keyword
+
+new will allocate the memory in the heap section and returns back the address of that memory and we need to store in the 
+pointer.
+
+and for the memory in the heap section there is no name only pointer to access the memory and if pointer is lost then 
+there is a memory leak in the application
+
+but delaing with dynamic memory is very tricky when we forget to delete then there could be a memory leak hence we can use
+the vector 

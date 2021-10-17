@@ -1,0 +1,13 @@
+A reference is an alias to the variable
+
+must be initialized to a variable when declared
+
+cannot be null
+
+once initialized cannot be made to refer to a different variable
+
+very useful as function parameters
+
+might be helpful to think of reference as the const pointer that is automatically dereferenced.
+
+pass by refrence variables is much easier and better than pass by pointers variables
