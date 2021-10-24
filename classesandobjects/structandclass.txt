@@ -1,0 +1,12 @@
+In c++ we can also use the struct to create objects
+but only difference is that by defauklt for struct members are public
+and for class they are private
+
+Struct 
+use struct for passive objects(simple behaviour) with public access
+Don't declare methods in struct
+
+class
+use class for active objects with private access
+implement getters and setters methods
+implement method members as needed.

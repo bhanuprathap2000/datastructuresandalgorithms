@@ -1,0 +1,10 @@
+static memebrs means there are class specific and not object specific
+example number of objects created can be a static member 
+
+static int numOfObjects;
+
+inside the constructer we can increment it 
+and inside the destructer we can decrement it
+
+
+we can also create static methods which can only access the static members and cannot non static members

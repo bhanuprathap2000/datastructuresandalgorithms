@@ -1,0 +1,21 @@
+Procedural programming
+
+Focus is on processes or actions that a program takes
+
+Programs are typically a collection of functions
+
+Data is declared seperatley 
+
+Data is passed as arguments into functions
+
+Fairly easy to learn
+
+Limitations
+
+Functions need to know they become more:
+difficult to understand
+difficult to maintain
+difficult to extend
+diffcult to debug
+difficult to reuse code
+fragile and easier to break

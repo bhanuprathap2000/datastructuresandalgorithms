@@ -1,0 +1,13 @@
+Vectors are sequence containers representing the arrays which can grow in size
+just like arrays vectors use the contigous memory location for thier elements and can be accessed directly in O(1).
+But unlike arrays their size can change dynamically with heir  storgae is automatically handled by the container.
+
+How vectors work internally?
+
+Vector first create a dynamic array by the specified size and when we try to add more elements than the specified size
+
+first it will allocate another array with the double the size of the prsent array and copies all the elements and adds new elements
+
+deallcating of the previous is done 
+
+in this way the vectors work internally.

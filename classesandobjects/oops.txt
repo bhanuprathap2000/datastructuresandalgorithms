@@ -1,0 +1,64 @@
+focus is on classes that model real world domain entities
+allows developers to think at a higher level of abstraction
+used sucessfully in very large program
+ 
+ Encapsulation
+ objects contain data and operations that work on that data
+ Abstract data type
+
+ Information hiding
+ implementation specific logic can be hidden
+ users of the class code to the interface since they don't need to know the implementation
+ more abstraction
+ easier to test,debug,maintain and extend
+
+ Reusabiltiy
+ easier to reuse classes in other applications
+ faster development
+ higher quality
+
+ Inheritence
+ can create new classes in term of exissting classes
+ Reusabiltiy
+ polymorphic classes
+
+ polymorphism and more....
+
+
+Limitations
+not sutable for all types of Programs
+usually steeper learning curve
+many oo languages many variations of oo concepts
+
+
+Classes
+blueprint from which objects are created
+a user defined data type
+has attributes(data)
+has methods(functions)
+can hide data and methods
+provides a public interface
+
+Example classes
+Account
+Employee
+Image
+std::vector
+std::string
+
+Objects
+created from a class
+represents a specific instance of a class
+can create many many objects
+each has its own identity
+each can use the defined class methods
+
+Example
+Bhanu's Bank account is an instance of Account
+Gokul account is an instance of Account
+Each has it's own balance can make deposist and withdrawals.
+
+to create a objects it staright forward
+
+Account bhanu_account;
+bhanu_account is a object of Account class

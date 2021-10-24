@@ -1,0 +1,17 @@
+this is a reserved keyword
+
+contains the address of the object-so it's a pointer to the object
+
+can only be used in the class scope
+
+All member access is done via the this pointer
+
+Can be used by the programmer
+To access data member and methods
+to determine if two objects are the same 
+can be dereferenced to get the current object
+
+We can directly access the members because it's done for us by compiler
+
+when the formal parameter and object member have the same name then 
+it's better to use this->memebr=parameter

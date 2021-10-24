@@ -1,0 +1,39 @@
+Friend 
+
+a function or class that has access to private class member
+
+when
+Function
+can be regular non member function that means not associated with any clas just a normal function and it's not a member of the class it is the Friend
+can be memebr methods of another class
+
+When 
+class
+Another class can have access to private class memebrs
+
+
+Friend of a class
+Friendship must be granted not taken
+Decalred explicitly in the class that is granting Friendship
+decalred in the function prototype with the keyword Friend
+Friendship is not symmetric 
+
+Must be explicitly granted
+if a is friend of b
+then b is not friend a must be explicitly decalred
+
+Not transitive
+If a is friend of be
+b is friend of c
+then a is not friend of c
+
+
+so the syntax is like this
+
+class Player{
+
+    friend void display_player(Player &p1);
+    ...
+};
+
+This by passes the concept of encapsulation we need to careful aboout which function or class to make the friend.

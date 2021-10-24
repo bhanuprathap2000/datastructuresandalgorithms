@@ -1,0 +1,13 @@
+Shallow copy only on the top level the members are copied and rest of them only pointers are copied which will point to same location
+
+This means if we use the raw c++ pointers then whenever we copy object that pass an object to function or return an object from function
+
+In those cases only a shallow copy is made (default in c++)
+
+The problem with this is that if one of the object is destroyed and it removes the values pointed by other copied objects then this can cause problems
+
+That's why we need to do deep copy when use the raw pointers a members in the class.
+
+Here unlike the pointer being copied the data which that pointers points is copied and avialable in new address
+
+We can create copy constructers to do this for us both shallow and deep copy.
