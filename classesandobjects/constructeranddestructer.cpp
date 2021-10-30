@@ -3,7 +3,7 @@ using namespace std;
 
 
 /*
-
+no return type for constructer
 Constructer are the methods which are called when an object is created so we can do the intilization tasks using the 
 constructer
 and if we don't provide any consructer by default c++ provides an empty constructer

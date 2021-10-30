@@ -15,3 +15,11 @@ We can directly access the members because it's done for us by compiler
 
 when the formal parameter and object member have the same name then 
 it's better to use this->memebr=parameter
+
+
+in case of objects wer can use the . operator to access the members
+
+in case of pointers to the objects in heap we can use the -> operator to access the members
+
+inside the class we can use the this pointer to access the members of the object that will be created from the class
+
