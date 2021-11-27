@@ -1,0 +1,2 @@
+Recurssion is a technique where solution to a problem can be found by solving a smaller version of the same problem.
+In programming this can be achieved by  function calling itself.
