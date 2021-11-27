@@ -1,0 +1,1 @@
+we basically use the recurssion for divide and conquer problems
