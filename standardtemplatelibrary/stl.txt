@@ -1,0 +1,32 @@
+Introduction to STL: Standard Template Library
+
+STL is an acronym for standard template library. It is a set of C++ template classes that provide generic classes and function that can be used to implement data structures and algorithms .STL is mainly composed of :
+
+Algorithms
+Containers
+Iterators
+Introduction to STL
+
+STL provides numerous containers and algorithms which are very useful in completive programming , for example you can very easily define a linked list in a single statement by using list container of container library in STL , saving your time and effort.
+
+STL is a generic library , i.e a same container or algorithm can be operated on any data types , you don’t have to define the same algorithm for different type of elements.
+
+
+For example , sort algorithm will sort the elements in the given range irrespective of their data type , we don’t have to implement different sort algorithm for different datatypes.
+
+C++: Algorithms in STL
+STL provide number of algorithms that can be used of any container, irrespective of their type. Algorithms library contains built in functions that performs complex algorithms on the data structures.
+
+For example: one can reverse a range with reverse() function, sort a range with sort() function, search in a range with binary_search() and so on.
+
+Algorithm library provides abstraction, i.e you don't necessarily need to know how the the algorithm works.
+
+C++: Containers in STL
+Container library in STL provide containers that are used to create data structures like arrays, linked list, trees etc.
+
+These container are generic, they can hold elements of any data types, for example: vector can be used for creating dynamic arrays of char, integer, float and other types.
+
+C++: Iterators in STL
+Iterators in STL are used to point to the containers. Iterators actually acts as a bridge between containers and algorithms.
+
+For example: sort() algorithm have two parameters, starting iterator and ending iterator, now sort() compare the elements pointed by each of these iterators and arrange them in sorted order, thus it does not matter what is the type of the container and same sort() can be used on different types of containers.
