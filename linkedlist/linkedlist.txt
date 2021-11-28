@@ -1,0 +1,29 @@
+What is a linked list?
+
+Linked list is a form of sequential data structure(the nodes can be at any memory location need not to be continous). It is a collection of nodes where each node contains a data element and a reference (or link) to the next node in the list.
+
+A node will contain data and a reference to the next node.
+
+Linked list has head and tail pointers.which will point to the first and last node respectively.
+
+Linked List vs Arrays
+
+Elements of linked list are independent objects
+
+Variable size -the number of elements in the list is not fixed
+
+Insertion and removals in linked list are very efficient
+
+Random access is not possible in linked list and in array it is possible
+
+For accessing elements in linked list, we need to traverse the list from the beginning or the end.
+
+Types of linked list
+
+    Singly linked list
+    Circular Singly linked list-example chess game
+    Doubly linked list-example music player
+    Circular Doubly linked list-example swicthing between multiple  desktop application in windows
+
+nodes are alloted in random order
+
