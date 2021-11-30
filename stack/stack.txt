@@ -1,0 +1,19 @@
+Stack is a data structure that stores the items in first in last out order.
+ 
+examples of Stack
+- Stack of plates
+- Stack of pancakes
+- Stack of books
+
+operations on the Stack
+- push- add an item to the stack
+- pop- remove an item from the stack
+- peek- look at the top item on the stack
+- isEmpty- check if the stack is empty or not 
+- isFull- check if the stack is full or not
+
+application of Stack
+undo redo in text editor
+back button in web browser
+
+
