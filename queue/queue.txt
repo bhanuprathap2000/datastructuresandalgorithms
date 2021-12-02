@@ -3,3 +3,11 @@ queue is a data structure which stores the elements in first in first out manner
 A new addition to the queue happens at the end of the queue
 
 first item in the queue will be served first
+
+
+push operation -O(1) add the element
+
+pop operation -O(1) remove the element
+
+front operation -O(1) get the front element
+
