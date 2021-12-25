@@ -1,0 +1,5 @@
+compile the source code
+g++ linear_search.cpp(file name) -o linear_search.exe(executable file name default is a.exe)
+    
+execute the executable file
+./linear_search.exe
