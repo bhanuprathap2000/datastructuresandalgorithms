@@ -1,0 +1,7 @@
+for implementing the stack using linkedlist we insert and remove from the head.
+
+for implementing the queue using linkedlist we insert at the tail and remove from the head.
+
+Both of the above implementations takes only O(1) time.
+
+double ended queue supports adding and removing from both the ends.
